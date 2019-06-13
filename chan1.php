@@ -21,3 +21,4 @@ co::create(function () use ($chan) {
 //PHP低于5.4的版本，需要在你的PHP脚本结尾处加swoole_event_wait函数。
 //使脚本开始进行事件轮询，高于5.4的版本不需要
 swoole_event::wait();
+//修改文件了
